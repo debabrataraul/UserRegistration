@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/user_profile_search"
+        android:title=""
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_menu_search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/user_profile"
+        android:orderInCategory="1"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:background="@drawable/left_rounded_toolbar_tv" />
+    <item
+        android:id="@+id/user_activities"
+        android:orderInCategory="100"
+        android:title="Activities"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/user_profile_edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        app:showAsAction="always" />
+
+</menu>

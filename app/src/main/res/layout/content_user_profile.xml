@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_user_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_pic1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.incture.userregistration.UserProfile"
+    tools:showIn="@layout/activity_user_profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Davis"
+                android:textColor="#ffffff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:layout_weight=".95"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/ic_menu_edit"
+                android:layout_weight=".05"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designer,SAP-AG,Walldorf,Germany"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@drawable/text_colour_white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAP User Experience Group"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@drawable/text_colour_white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/ic_dialog_email" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m.davis@sap.com"
+                android:layout_gravity="center"
+                android:textColor="@drawable/text_colour_white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/ic_menu_call"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="+91 9611688299"
+                android:textColor="@drawable/text_colour_white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A000000"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:textColor="@drawable/text_colour_white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="work"
+                android:textColor="@drawable/text_colour_white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m.davis@sap.com"
+                    android:textColor="@drawable/text_colour_white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_weight=".99"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left"
+                    app:srcCompat="@drawable/ic_dialog_email" />
+                </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/text_colour_white"
+                android:text="home"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mark.davis@gmail.com"
+                    android:textColor="@drawable/text_colour_white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_weight=".99"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left"
+                    app:srcCompat="@drawable/ic_dialog_email" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/text_colour_white"
+                android:text="competencies"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visual Design, Interaction Design, Wireframing, Information Architecture"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@drawable/text_colour_white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/text_colour_white"
+                android:text="certification"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Certified UX Designer, Frog Designs"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@drawable/text_colour_white"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A000000"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textColor="@drawable/text_colour_white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="workgroup"
+            android:textColor="@drawable/text_colour_white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAP Ux and Design Group"
+                android:textColor="@drawable/text_colour_white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_weight=".99"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_menu_info_details"
+                android:layout_weight=".01" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_colour_white"
+            android:text="position"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@drawable/text_colour_white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_colour_white"
+            android:text="achievements"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certified UX Designer, Frog Designs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@drawable/text_colour_white"/>
+     </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
